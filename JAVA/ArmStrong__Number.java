@@ -1,10 +1,10 @@
+package JAVA;
 public class ArmStrong__Number {
     // Function to check if a number is an Armstrong number
     public static boolean isArmstrong(int number) {
         int originalNumber = number;
         int result = 0;
         int digits = String.valueOf(number).length(); // Get the number of digits
-
         while (number != 0) {
             int remainder = number % 10;
             result += Math.pow(remainder, digits);
