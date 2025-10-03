@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yourblog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Welcome to My Blog</h1>
+      <p>Share your thoughts, ideas, and stories with the world </p>
+      <div class="hero-buttons">
+        <button onclick="window.location.href='create.html'"> Create Blog</button>
+        <button onclick="logout()"> Logout</button>
+      </div>
+    </div>
+  </header>
+
+ 
+  <main>
+    <h2 style="text-align:center; margin-top:30px;">Latest Blogs</h2>
+    <div id="blog-list"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
