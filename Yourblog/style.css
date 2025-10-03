@@ -1,0 +1,221 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Input and Textarea */
+input, textarea {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  display: block;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* Buttons */
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+/* Blog Container */
+#blog-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Blog Card */
+#blog-list div {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+#blog-list h3 {
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+#blog-list p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+#blog-list small {
+  display: block;
+  color: #666;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+/* Centering forms (login & create) */
+body > input, 
+body > textarea,
+body > button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Logout & Add buttons */
+body > button {
+  display: inline-block;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(120deg, #3498db, #9b59b6);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-buttons button {
+  background: white;
+  color: #333;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.hero-buttons button:hover {
+  background: #f1f1f1;
+}
+
+/* Auth Box (Login/Register) */
+.auth-box {
+  width: 350px;
+  margin: 100px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.auth-box h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.auth-box input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+.auth-buttons {
+  margin-top: 15px;
+}
+
+.auth-buttons button {
+  width: 48%;
+  margin: 5px 1%;
+}
+
+/* Create Blog Page */
+.create-box {
+  width: 600px;
+  max-width: 90%;
+  margin: 80px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  color: white;
+}
+
+.create-box h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.create-box input,
+.create-box textarea {
+  width: 100%;
+  margin: 12px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.create-box textarea {
+  height: 200px;
+  resize: vertical;
+  background: #fdfdfd;
+  color: #333;
+  font-family: "Courier New", monospace;
+}
+
+.create-box button {
+  margin-top: 15px;
+  background: #2d3436;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.create-box button:hover {
+  background: #636e72;
+}
+
