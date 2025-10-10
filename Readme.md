@@ -1,4 +1,4 @@
-# HACKTOBERFEST 2k24
+# HACKTOBERFEST 2k25
 
 This repository is dedicated to celebrating Hacktoberfest, an annual event encouraging open source contributions. Join us in October to make meaningful contributions to open source projects and earn cool swag! Check out the guidelines below to get started.
 
